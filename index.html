@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>P5 Canvas</title>
+    <link rel="stylesheet" href="includes/css/custom.css">
 </head>
 <body>
+
+    <div id="game_area">
+        <!-- Canvas with defualt size set. -->
+        <canvas id="game_canvas" width="800" height="600">
+            Sorry, your browser doesn't support the &lt;canvas&gt; element.
+        </canvas>
+    </div>
+
     
+    <div id="debug_area">
+        <fieldset>
+            <legend style="color:blue;font-weight:bold;">Debug Information</legend>
+            <table>
+                <tr>
+                    <td>Canvas width:</td>
+                    <!-- <td><input type="text" value="cfdssd"/></td> -->
+                    <td id="debug_canvas_width"></td>
+                </tr>
+                <tr>
+                    <td>Canvas height:</td>
+                    <!-- <td><input type="text"/></td> -->
+                    <td id="debug_canvas_height"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+         
+    <script src="includes/js/canvas.js"></script>
 </body>
 </html>

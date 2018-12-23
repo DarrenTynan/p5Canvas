@@ -1,0 +1,11 @@
+#game_area
+{
+    border: 1px solid;
+}
+#debug_area
+{
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    width: 350px;
+}
